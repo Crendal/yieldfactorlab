@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yieldfactorlab"
+version = "0.1.0"
+description = "Yield curve factor analysis framework using PCA and NSS"
+authors = [
+    { name = "Seong Kyu Lee" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "pandas-datareader",
+    "scipy",
+    "openpyxl"
+]
